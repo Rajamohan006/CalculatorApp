@@ -266,14 +266,14 @@ fun CalButton(
     Box(
         contentAlignment = Alignment.Center,
         modifier = modifier
-            .size(80.dp)
+            .size(60.dp)
             .background(color = MaterialTheme.colorScheme.primary, shape = CircleShape)
             .clickable { onClick() }
             .padding(16.dp)
     ) {
         Text(
             text = symbol,
-            fontSize = 36.sp,
+            fontSize = 24.sp,
             color = Color.White
         )
     }
